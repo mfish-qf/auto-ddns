@@ -14,9 +14,11 @@ mvn package进行打包</br>
 ### 创建目录
 mkdir /root/auto-ddns
 ### 拷贝文件
-将lib目录和auto-ddns.jar文件拷贝到/root/auto-ddns目录下
-将ali.properties,domains.properties,startup.sh文件也放置auto-ddns目录下
-chmod +X startup.sh 给startup.sh文件赋权
+将lib目录和auto-ddns.jar文件拷贝到/root/auto-ddns目录下<br>
+将ali.properties,domains.properties,startup.sh文件也放置auto-ddns目录下<br>
+修改ali.properties 将access_key_id，access_key_secret更改为自己阿里云的密钥对<br>
+修改domains.properties将域名和前缀修改为自己的域名、前缀
+chmod +X startup.sh 给startup.sh文件赋权<br>
 ### 单次执行
 cd /root/auto-ddns 进入目录</br>
 ./startup.sh 运行即可
