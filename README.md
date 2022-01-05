@@ -14,7 +14,7 @@ mvn package进行打包</br>
 ### 创建目录
 mkdir /root/auto-ddns
 ### 拷贝文件
-将打包好的文件拷贝到/root/auto-ddns目录下
+将lib目录和auto-ddns.jar文件拷贝到/root/auto-ddns目录下
 将ali.properties,domains.properties,startup.sh文件也放置auto-ddns目录下
 chmod +X startup.sh 给startup.sh文件赋权
 ### 单次执行
